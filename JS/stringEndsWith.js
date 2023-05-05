@@ -6,3 +6,6 @@ function solution(str, ending) {
 
 console.log(solution('abcde', 'cde')); // true
 console.log(solution('abcde', 'abc')); // false
+
+// Q: explain how to use regex to replace the first 3 numbers with X
+// A: use the regex /(...)/ to capture the first 3 numbers, then use $1 to replace the first 3 numbers with X
