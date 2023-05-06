@@ -9,3 +9,8 @@ function getCount(mystring) {
 }
 
 console.log(getCount(str));
+
+// Q: explain how this works
+// A: the match method returns an array of all the matches, so we can use the length property to get the number of matches
+// Q: explain the regex
+// A: the regex /[aeiou]/g matches all the vowels in the string, the g flag means global, so it will match all instances of the vowels
